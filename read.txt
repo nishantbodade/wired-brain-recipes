@@ -29,3 +29,4 @@ git status
 this command shows the status  of repo
 On branch master  //first line show on which branch ur
 Your branch is up to date with 'origin/master'. // status of local and remote branch
+----
