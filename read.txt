@@ -16,9 +16,16 @@ git push -u origin main
 
 git remote add origin git@github.com:nishantbodade/wired-brain-recipes.git
 git branch -M main
-git push -u origin main
+git push -u origin master
 
 
 -----------------------------
 git add .  //add untrack files
-git commit -m "<text msg>"  //commit changes
+git commit -m "<text msg>"  //commit
+
+---------------------------------
+git status
+
+this command shows the status  of repo
+On branch master  //first line show on which branch ur
+Your branch is up to date with 'origin/master'. // status of local and remote branch
