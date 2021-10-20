@@ -48,3 +48,4 @@ A=new file added to staging area
 git diff explained
 
 git diff --staged //compare last commit to staged changes
+git diff --staged --no-renames  // diff files
