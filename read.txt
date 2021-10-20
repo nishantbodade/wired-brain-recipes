@@ -44,3 +44,7 @@ git status -s  or git status --short //for short status
 M=modified
 A=new file added to staging area
 ??=new file untracked by git
+----------------------------------------
+git diff explained
+
+git diff --staged //compare last commit to staged changes
