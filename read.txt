@@ -84,5 +84,10 @@ git merge <branch name>  //this command will merge th ebranch to the current bra
 git reset --soft  //to back stagging area
 git reset --mixed //to working directory
 git reset --hard //to trash or delete
+------------------------
+git push
+git push origin master //push ot master
+git pull orgin master //pull from master
+
 
 
