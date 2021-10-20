@@ -29,4 +29,18 @@ git status
 this command shows the status  of repo
 On branch master  //first line show on which branch ur
 Your branch is up to date with 'origin/master'. // status of local and remote branch
-----
+-----------------------------------------
+gi file stages
+commit modified and staged
+-------------------------------------------
+track new file
+touch venders.txt to create files
+git add venders.txt to add file to stage and track
+---------------------------------------------
+stage modified files
+--------------------------------------------
+short status
+git status -s  or git status --short //for short status
+M=modified
+A=new file added to staging area
+??=new file untracked by git
