@@ -52,4 +52,28 @@ git diff --staged --no-renames  // diff files
 
 ---------------------------------------------
 git commot
- git commit -a -m "<msg>"  / -a for add all changes to staged area ,-m is for msg
+git commit -a -m "<msg>"  / -a for add all changes to staged area(skip staged area) ,-m is for msg
+---------------------------------------------
+git push to remote origin
+ git push origin master  //will push changes to origin master
+------------------------------------------------\
+check commit history
+git log  <parameters> // se the log of commits
+parameters:
+-1  //for latest commot
+--oneline //all comits in one line
+--stat //give status
+--patch // details for every commit every file
+--------------------------------------------------
+commit message
+----------------------------------------------
+remove and move files
+git rm <name of file>  //git remove the file from project, staging area and untack in
+git rm --cached <name>  //git untrack the file,but wont delete
+git mv <name> <rename>  // rename files
+-------------------------------------------------
+introduction to branches
+
+
+
+
