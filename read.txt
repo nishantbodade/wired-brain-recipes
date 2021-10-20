@@ -49,3 +49,7 @@ git diff explained
 
 git diff --staged //compare last commit to staged changes
 git diff --staged --no-renames  // diff files
+
+---------------------------------------------
+git commot
+ git commit -a -m "<msg>"  / -a for add all changes to staged area ,-m is for msg
