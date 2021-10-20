@@ -1,0 +1,88 @@
+set username using git user.name="" and user.email=""
+initialize git repo using git init
+
+
+or create a new repository on the command line
+echo "# wired-brain-recipes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:nishantbodade/wired-brain-recipes.git
+git push -u origin main
+
+############################################################
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:nishantbodade/wired-brain-recipes.git
+git branch -M main
+git push -u origin master
+
+
+-----------------------------
+git add .  //add untrack files
+git commit -m "<text msg>"  //commit
+
+---------------------------------
+git status
+
+this command shows the status  of repo
+On branch master  //first line show on which branch ur
+Your branch is up to date with 'origin/master'. // status of local and remote branch
+-----------------------------------------
+gi file stages
+commit modified and staged
+-------------------------------------------
+track new file
+touch venders.txt to create files
+git add venders.txt to add file to stage and track
+---------------------------------------------
+stage modified files
+--------------------------------------------
+short status
+git status -s  or git status --short //for short status
+M=modified
+A=new file added to staging area
+??=new file untracked by git
+----------------------------------------
+git diff explained
+
+git diff --staged //compare last commit to staged changes
+git diff --staged --no-renames  // diff files
+
+---------------------------------------------
+git commot
+git commit -a -m "<msg>"  / -a for add all changes to staged area(skip staged area) ,-m is for msg
+---------------------------------------------
+git push to remote origin
+ git push origin master  //will push changes to origin master
+------------------------------------------------\
+check commit history
+git log  <parameters> // se the log of commits
+parameters:
+-1  //for latest commot
+--oneline //all comits in one line
+--stat //give status
+--patch // details for every commit every file
+--------------------------------------------------
+commit message
+----------------------------------------------
+remove and move files
+git rm <name of file>  //git remove the file from project, staging area and untack in
+git rm --cached <name>  //git untrack the file,but wont delete
+git mv <name> <rename>  // rename files
+-------------------------------------------------
+introduction to branches
+git checkut -b <branch name> //create new branch from master and checkout
+git  -b <branch name> //just create branch but dont swtich
+git stash to save working data
+git stash pop to add back changes to working data
+------------------------------------------------
+git merge
+git merge <branch name>  //this command will merge th ebranch to the current branch on whitch we area
+----------------------------------------------------
+git reset --soft  //to back stagging area
+git reset --mixed //to working directory
+git reset --hard //to trash or delete
+
+
